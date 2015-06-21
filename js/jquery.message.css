@@ -1,0 +1,4 @@
+#mensagem { right: 20px; position: fixed; bottom: 20px; z-index: 103; }
+#mensagem div { font-size: 13px; margin-bottom: 10px; padding: 15px; text-transform: uppercase; width: 500px; }
+#mensagem div.info { background-color: rgb(1, 73, 111); color: #fff; }
+#mensagem div.warn { background-color: #fc9c3c; color: #fff; }
