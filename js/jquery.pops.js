@@ -1,5 +1,11 @@
 (function($) {
 
+	$.popup = $.popup || {};
+
+	$.popup.opUnpops = function(){
+		$(this).unpops();
+	}
+
 	function createPops(pop, me) {
 		me.show();
 		pop.addClass('pop-opened');
@@ -28,6 +34,9 @@
 		me.addClass('pop-content').addClass(clazz);
 		pop.prevAll('.pop').hide();
 		return createPops(pop, me);
+	}$.popup = $.popup || {};
+	$.popup.opUnpops = function(){
+		$(this).unpops();
 	}
 
 	$.fn.unpops = function() {
