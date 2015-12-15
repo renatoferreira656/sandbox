@@ -1,0 +1,16 @@
+First, make sure that you have hfsprogs installed. Example installation command:
+
+sudo apt-get install hfsprogs
+
+Next, mount or remount the HFS+ drive; commands need to be as follows:
+
+sudo mount -t hfsplus -o force,rw /dev/sdXY /media/mntpoint
+
+or
+
+sudo mount -t hfsplus -o remount,force,rw /mount/point
+
+Finally, if the drive was improperly unmounted or has otherwise become partially corrupted run fsck.hfsplus ... as such:
+
+sudo fsck.hfsplus -f /dev/sdXY
+There is a goldmine of other information there regarding the mounting of HFS+ filesystems.
