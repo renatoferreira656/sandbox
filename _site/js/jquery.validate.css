@@ -1,0 +1,24 @@
+form li.validate label:after {
+        content: '*';
+        color: red;
+}
+
+.error {
+        position: relative
+}
+
+.error select,
+.error input,
+.error textarea {
+        border: 1px solid #F40000 !important;
+}
+
+.error .error-msg {
+        top: -13px;
+        color: #F40000;
+        font: bold 9px/10px Arial;
+        height: 10px;
+        left: 163px;
+        position: absolute;
+}
+

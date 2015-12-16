@@ -1,0 +1,7 @@
+
+/* Popup */
+.pop {background-color: rgba(255, 255, 255, 0.8);background-image: none;height: 100%;left: 0;position: fixed;top: 0;width: 100%;z-index: 2;}
+.pop-content {background-color: #ffffff;border: 1px solid #cacacf;left: 0;margin: 40px auto 0;position: fixed;right: 0;width: 700px;z-index: 102;}
+.pop-head {background-color: rgb(1, 73, 111);padding: 10px;}
+.pop-head h3 {color: #dedeff;font-size: 15px;font-weight: bold;}
+.pop-content .popup-content {padding: 15px 20px 20px;}
