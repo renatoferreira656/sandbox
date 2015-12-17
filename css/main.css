@@ -1,0 +1,19 @@
+body {
+    font-family: 'Open Sans';
+    background-color: #EAE4D3;
+}
+
+header {
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 30px;
+    background-color: #4b3f26;
+    color:#c8bca6;
+}
+
+#content{
+    width: 800px;
+    margin: 20px auto;
+    color: #3D3629;
+}
