@@ -2,21 +2,8 @@
 <html lang="en">
 <head>
     <title>{{ page.title }}</title>
-
-    {% assign base = '' %}
-    {% assign depth = page.url | split: '/' | size | minus: 1 %}
-    {% if    depth == 1 %}
-        {% assign base = '.' %}
-    {% elsif depth == 2 %}
-        {% assign base = '..' %}
-    {% elsif depth == 3 %}
-        {% assign base = '../..' %}
-    {% elsif depth == 4 %}
-        {% assign base = '../../..' %}
-      {% endif %}
-
-    <link rel="stylesheet" href="../{{ base }}/css/reset.css"/>
-    <link rel="stylesheet" href="../{{ base }}/css/main.css"/>
+    <link rel="stylesheet" href="/css/reset.css"/>
+    <link rel="stylesheet" href="/css/main.css"/>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,300" rel="stylesheet" type="text/css">
     {{ page.sections['header'] }}
 </head>

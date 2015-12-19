@@ -1,3 +1,7 @@
+---
+layout: default
+title: Teste
+---
 Renato Ferreira Soares
 
 Software Developer
