@@ -1,0 +1,3 @@
+
+in "if" don't any path
+dd if=image.iso of=/dev/sdX bs=1MB
