@@ -1,0 +1,7 @@
+var d = new Date('2010-03-05T00:00:00-1200');
+var a = d.getTime();
+var tz = a % (24 * 60 * 60 * 1000);
+var tzzz = tz / (60 * 60 * 1000);
+console.log( Math.round(tzzz)  > 12 ? 24 - Math.round(tzzz): -1 *  Math.round(tzzz));
+
+
