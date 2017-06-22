@@ -1,0 +1,2 @@
+keytool -importcert -trustcacerts -noprompt -keystore /opt/jdk/jre/lib/security/cacerts  -file certificate_file
+password: changeit
