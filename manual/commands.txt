@@ -1,0 +1,2 @@
+sudo iwconfig
+sudo setxkbmap -model thinkpad60 -layout br
