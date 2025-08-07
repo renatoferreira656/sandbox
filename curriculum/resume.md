@@ -76,7 +76,7 @@ Delivered multiple client projects, often as technical lead.
 ---
 
 ## Education
-**B.S. in Systems Analysis & Computer Science**  
+**Technologist in Systems Analysis and Development**  
 State University of Campinas (UNICAMP), 2009 – 2012, Limeira - Brazil
 
 ---
